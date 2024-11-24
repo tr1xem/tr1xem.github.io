@@ -33,7 +33,7 @@ jQuery(handleJQuery)
 function replacePlaceholders(html, json) {
     return html.replace(/\[\[([^\]]+)\]\]/g, (match, key) => {
         if (json?.[key]) return json[key]
-        
+
         return match
     })
 }

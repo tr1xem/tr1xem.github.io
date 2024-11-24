@@ -28,21 +28,45 @@ function displayWebsite() {
 }
 
 function startLoading() {
-    typeIt
+    const typeIt = new TypeIt('#loadingText', {
+        speed: 50,               // Speed of typing
+        waitUntilVisible: true,  // Wait until the element is visible
+        cursor: true,            // Show the cursor
+        deleteSpeed: 25,         // Speed of deleting text (optional)
+        breakLines: false,       // Prevent automatic line breaks
+    })
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ', { instant: true, delay: 500 })
-    .type('whereis love')
+    .type('whoami')
     .break({ instant: true })
-    .type('love:', { instant: true })
+    .type('root', { instant: true })
     .break({ instant: true })
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ', { instant: true, delay: 2000 })
-    .type('cat love')
+    .type('neofetch')
     .break({ instant: true })
-    .type('cat: love: No such file or directory', { instant: true })
-    .break({ instant: true })
+         .type(`
+╔══════════════════════════════════════╗
+║        🖥️ System Information         ║
+╠══════════════════════════════════════╣
+║ 🏷️ OS:        Arch Linux x86_64      ║
+║ 🐧 Kernel:    6.11.5-arch1-1         ║
+║ ⏱️ Uptime:    1 hour, 2 mins         ║
+║ 📦 Packages:  1200 (pacman)          ║
+║ 🐚 Shell:     zsh 5.9                ║
+║ 🖼️ Resolution: 1920x1080             ║
+║ 🪟 WM:        Hyprland               ║
+║ 🎨 Theme:     Adwaita-dark [GTK2/3]  ║
+║ 🖌️ Icons:     Papirus-Dark [GTK2/3]  ║
+║ 🖥️ Terminal:  Alacritty              ║
+║ ⚙️ CPU:       Intel i7-13650HX (16)  ║
+║ 🎮 GPU:       NVIDIA GeForce RTX 3050║
+║ 🧠 Memory:    2048MiB / 16000MiB     ║
+╚══════════════════════════════════════╝
+`, { instant: true })
+        .break({ instant: true })
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ', { instant: true, delay: 4000 })
-    .type(':(', { delay: 1000 })
-    .options({ speed: 1000 })
-    .delete(2, { delay: 500 })
+    .type("yes right, i use arch(btw)", { delay: 10 })
+    .options({ speed: 50 })
+    .delete(26, { delay: 500 })
     .options({ speed: 50 })
     .type('sudo rm -rf --no-preserve-root /', { delay: 300 })
     .break({ instant: true })
@@ -51,7 +75,7 @@ function startLoading() {
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ^C', { instant: true, delay: 300 })
     .break({ instant: true })
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ', { instant: true, delay: 500 })
-    .type('ssh website@bio.trixsly.xyz')
+    .type('ssh website@trix.is-a.dev')
     .break({ instant: true })
     .type('The authenticity of host \'bio.trixsly.xyz (217.174.245.249)\' can\'t be established.', { instant: true })
     .type('ECDSA key fingerprint is SHA256:Bhvy0+Nafdu90JBR2OzKcPye7vmFcgqPPnBo4ywMDV9.', { instant: true })
@@ -61,14 +85,14 @@ function startLoading() {
     .break({ instant: true })
     .type('Warning: Permanently added \'bio.trixsly.xyz,217.174.245.249\' (ECDSA) to the list of known hosts.', { instant: true })
     .break({ instant: true })
-    .type('website@bio.trixsly.xyz\'s password: ', { instant: true, delay: 500 })
+    .type('website@trix.is-a.dev\'s password: ', { instant: true, delay: 500 })
     .type('****', { delay: 150 })
     .type('***', { delay: 500 })
     .delete(2)
     .type('***', { delay: 400 })
     .type('*****')
     .break({ instant: true })
-    .type('website@bio.trixsly.xyz: ~/ $ ', { instant: true, delay: 500 })
+    .type('website@trix.is-a.dev: ~/ $ ', { instant: true, delay: 500 })
     .type('sudo atp install trxi', { delay: 300 })
     .type('-website -y')
     .options({ speed: 25 })
@@ -113,7 +137,7 @@ function startLoading() {
     .delete(12, { instant: true })
     .type('<span style="color: #b89a28;">0% [Waiting for headers]</span>', { instant: true, delay: 100 })
     .delete(24, { instant: true, delay: 100 })
-    .type('Get:1 https://bio.trixsly.xyz/download googletagmanager font-inter trix-website highlightjs highlightjs-atom-one-theme jbox jquery analytics typeit [548 kB]', { instant: true })
+    .type('Get:1 https://trix.is-a.dev/download googletagmanager font-inter trix-website highlightjs highlightjs-atom-one-theme jbox jquery analytics typeit [548 kB]', { instant: true })
     .break({ instant: true, delay: 560 })
     .type('Fetched 548 kB in 1s (1972 kB/s)', { instant: true })
     .break({ instant: true, delay: 300 })
@@ -134,7 +158,7 @@ function startLoading() {
     .break({ instant: true, delay: 300 })
     .type('Processing triggers for man-db (2.9.1-1) ...', { instant: true })
     .break({ instant: true, delay: 80 })
-    .type('website@bio.trixsly.xyz: ~/ $ ', { instant: true })
+    .type('website@trix.is-a.dev: ~/ $ ', { instant: true })
     .type('trix-website dlpeoy --pr')
     .options({ speed: 25 })
     .move(-7)

@@ -55,13 +55,13 @@ setInterval(() => {
             '| $$   |  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$',
             '|__/    \\______/  \\______/ |__/  |__/ \\_______/'
         ]
-        
+
         errorCodeElement.innerHTML = errorCodeASCIIArray.join('\n')
-        
+
         setTimeout(() => {
             errorTextElement.innerHTML = errorTextASCIIArrayNot.join('\n') + '\n' + errorTextASCIIArrayFound.join('\n')
-            
-            socialPageURLElement.innerHTML = '<a href="https://bio.trixsly.xyz">Go to Socials page!</a>'
+
+            socialPageURLElement.innerHTML = '<a href="https://trix.is-a.dev">Go to Socials page!</a>'
         }, 500)
     }
 }, 100)
@@ -82,19 +82,19 @@ function startTimeouts() {
         modal2.style.display = "none";
         modal1.style.display = "block";
     }, 180000)
-    
+
     const tim2 = setTimeout(() => {
         modal1.style.display = "none";
         modal3.style.display = "none";
         modal2.style.display = "block";
     }, 300000)
-    
+
     const tim3 = setTimeout(() => {
         modal1.style.display = "none";
         modal2.style.display = "none";
         modal3.style.display = "block";
     }, 480000)
-    
+
     document.addEventListener('visibilitychange', () => {
     if (document.visibilityState == "hidden") {
         clearTimeout(tim1)
@@ -131,4 +131,4 @@ window.onclick = function(event) {
         modal2.style.display = "none";
         modal3.style.display = "none";
     }
-}                                                                          
+}
