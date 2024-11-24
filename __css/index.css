@@ -1,9 +1,6 @@
 body {
     font-family: "Inter", sans-serif;
 }
-#typeit-output {
-}
-
 .loading {
     z-index: 9999;
     background-color: #1a1a1a;
@@ -37,8 +34,6 @@ body {
 }
 
 .loading-text {
-
-    font-family: 'Courier New', Courier, monospace; /* Monospace font */
     font-family: monospace;
     color: #fff;
     padding-left: 5px;
