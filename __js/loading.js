@@ -47,19 +47,19 @@ function startLoading() {
 ╔══════════════════════════════════════╗
         🖥️ System Information         
 ╠══════════════════════════════════════╣
- 🏷️ OS:        Arch Linux x86_64      
- 🐧 Kernel:    6.11.5-arch1-1         
- ⏱️ Uptime:    1 hour, 2 mins         
- 📦 Packages:  1200 (pacman)          
- 🐚 Shell:     zsh 5.9                
- 🖼️ Resolution: 1920x1080 @ 120Hz          
- 🪟 WM:        Hyprland               
- 🎨 Theme:     TokyoNight [GTK2/3]  
- 🖌️ Icons:     Papirus-Dark [GTK2/3]  
- 🖥️ Terminal:  Alacritty              
- ⚙️ CPU:       Intel i7-13650HX (14 cores /20 Threads)  
- 🎮 GPU:       NVIDIA GeForce RTX 3050 (6GB)
- 🧠 Memory:    2048MiB / 16000MiB     
+  🏷️ OS:        Arch Linux x86_64      
+  🐧 Kernel:    6.11.5-arch1-1         
+  ⏱️ Uptime:    1 hour, 2 mins         
+  📦 Packages:  1200 (pacman)          
+  🐚 Shell:     zsh 5.9                
+  🖼️ Resolution: 1920x1080 @ 120Hz          
+  🪟 WM:        Hyprland               
+  🎨 Theme:     TokyoNight [GTK2/3]  
+  🖌️ Icons:     Papirus-Dark [GTK2/3]  
+  🖥️ Terminal:  Alacritty              
+  ⚙️ CPU:       Intel i7-13650HX (14 cores /20 Threads)  
+  🎮 GPU:       NVIDIA GeForce RTX 3050 (6GB)
+  🧠 Memory:    2048MiB / 16000MiB     
 ╚══════════════════════════════════════╝
 `, { instant: true })
         .break({ instant: true })
