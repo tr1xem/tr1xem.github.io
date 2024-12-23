@@ -38,23 +38,29 @@ function startLoading() {
     .type('neofetch')
     .break({ instant: true })
          .type(`
-╔══════════════════════════════════════╗
-        🖥️ System Information
-╠══════════════════════════════════════╣
-  🏷️ OS:          Arch Linux x86_64
-  🐧 Kernel:      6.11.5-arch1-1
-  ⏱️ Uptime:      1 hour, 2 mins
-  📦 Packages:    1200 (pacman)
-  🐚 Shell:       zsh 5.9
-  🖼️ Resolution:  1920x1080 @ 120Hz
-  🪟 WM:          Hyprland
-  🎨 Theme:       TokyoNight [GTK2/3]
-  🖌️ Icons:       Papirus-Dark [GTK2/3]
-  🖥️ Terminal:    Alacritty
-  ⚙️ CPU:         Intel i7-13650HX (14 cores /20 Threads)
-  🎮 GPU:         NVIDIA GeForce RTX 3050 (6GB)
-  🧠 Memory:      2048MiB / 16000MiB
-╚══════════════════════════════════════╝
+                                           󰄛  コンピューター
+                                        ┌──────────────────────────────────────────┐
+                                          󰇺 Chassis : 
+                                          󰣇 OS : CachyOS Linux
+                                           Kernel : 6.12.6-2-cachyos
+                                          󰏗 Packages : 1487 (pacman)
+                                          󰍹 Display : 1920x1080 @ 165Hz [built-in]
+                                          >_ Terminal : kitty 0.37.0
+                                          󱗃 WM : Hyprland
+                                        └──────────────────────────────────────────┘
+
+                                           : trix @ cachyos
+                                        ┌──────────────────────────────────────────┐
+                                           CPU : 13th Gen Intel(R) Core(TM) i7-13650HX @ 4.90 GHz
+                                          󰊴 GPU : NVIDIA GeForce RTX 4050 Max-Q / Mobile
+                                          󰊴 GPU : Intel Raptor Lake-S UHD Graphics
+                                           GPU Driver : nvidia (open source) 565.77
+                                           GPU Driver : i915
+                                            Memory : 3.99 GiB / 15.31 GiB (26%)
+                                          󱦟 OS Age  : 1117 days
+                                          󱫐 Uptime  : 13 hour, 1 min
+                                        └──────────────────────────────────────────┘
+                                          ● ● ● ● ● ● ● ●
 `, { instant: true })
         .break({ instant: true })
     .type('<span style="color: #118c0a;">trix@Life</span>: <span style="color: #2c5bc7;">/</span> $ ', { instant: true, delay: 4000 })
