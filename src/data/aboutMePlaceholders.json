@@ -1,0 +1,9 @@
+{
+	"striketrhoughStart": "<s>",
+	"striketrhoughEnd": "</s>",
+
+	"aEnd": "</a>",
+
+	"currentYear": "__execjs:new Date().getFullYear()",
+	"currentTimestamp": "__execjs:const currentYear = new Date().getFullYear(); new Date(currentYear, 11, 19).getTime()"
+}
