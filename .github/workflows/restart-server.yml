@@ -1,5 +1,4 @@
-# File: .github/workflows/publish.yml
-name: publish-to-github-pages
+name: Restart Site Server
 on:
   push:
     branches:
