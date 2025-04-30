@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 	title: "My own bio :) - tr1x_em | Home Page",
 	description: "Here are listed most of my socials (if not all) :)",
 	openGraph: {
-		title: "My own bio :) - Stefano Del Prete | Home Page",
+		title: "My own bio :) - tr1x_em | Home Page",
 		type: "website",
 		url: "https://trix.is-a.dev",
 		description: "Here are listed most of my socials (if not all) :)",
