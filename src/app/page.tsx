@@ -114,7 +114,7 @@ export default async function Home({ searchParams }: Data) {
 						/>
 						<embed
 							className="p-[5px] w-auto align-top rounded-xl max-md:w-[100%]"
-							src="https://github-readme-streak-stats-stef-00012.vercel.app/?user=tr1xem&theme=radical"
+							src="https://github-readme-streak-stats-two-ruddy.vercel.app/?user=tr1xem&theme=radical"
 						/>
 					</div>
 				</Collapsible>
