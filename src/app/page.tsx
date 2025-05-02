@@ -105,7 +105,7 @@ export default async function Home({ searchParams }: Data) {
 						<embed
 							className="p-[5px] w-auto align-top rounded-xl max-md:w-[100%]"
 							type="text/html"
-							src="https://github-readme-stats-lac-sigma.vercel.app/api?username=tr1xem&show_icons=true&theme=tokyonight"
+							src="https://github-readme-stats-lac-sigma.vercel.app/api?username=tr1xem&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
 						/>
 						<embed
 							className="p-[5px] w-auto align-top rounded-xl max-md:w-[100%]"
