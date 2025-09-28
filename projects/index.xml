@@ -14,16 +14,33 @@
       
       <guid>https://trix.is-a.dev/projects/awcc/</guid>
       <description>&lt;p&gt;AWCC is an unofficial alternative to Alienware Command Centre of Windows for the Dell G series on Linux, supporting almost all features that the Windows version supports, including custom fan controls, light effects, g-mode, and autoboost&lt;/p&gt;
-&lt;h2 id=&#34;device-tested&#34;&gt;Device Tested&lt;/h2&gt;
-&lt;p&gt;Tested on:&lt;/p&gt;
+&lt;h2 id=&#34;-features&#34;&gt;✨ Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Dell G15 5530&lt;/li&gt;
-&lt;li&gt;Dell G16 7630&lt;/li&gt;
-&lt;li&gt;Dell G15 5511&lt;/li&gt;
+&lt;li&gt;🖥️ &lt;strong&gt;GUI and CLI support&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;⚡ &lt;strong&gt;Lightweight&lt;/strong&gt; (uses around ~100mb of RAM with GUI, else 6mb RAM)&lt;/li&gt;
+&lt;li&gt;🌈 &lt;strong&gt;All Light Effects&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🧑‍💻 &lt;strong&gt;Daemon Support&lt;/strong&gt; (no sudo needed if daemon is running)&lt;/li&gt;
+&lt;li&gt;🎮 &lt;strong&gt;GMode and Light Key autobinding&lt;/strong&gt; just like Windows&lt;/li&gt;
+&lt;li&gt;🔥 &lt;strong&gt;Supports All modes&lt;/strong&gt; that your device has&lt;/li&gt;
+&lt;li&gt;💻 &lt;strong&gt;Supports all of G15 and G16&lt;/strong&gt; with some Alienware&lt;/li&gt;
+&lt;li&gt;🕵️ &lt;strong&gt;No Telemetry and Open Source&lt;/strong&gt; :3&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Custom Fan Curve&lt;/strong&gt; (Soon)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Should work in all Dell G15 models and some G16 models too&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/tr1xem/AWCC&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;device-tested&#34;&gt;Device Tested&lt;/h2&gt;
+&lt;p&gt;Tested on:&lt;/p&gt;</description>
       <content>&lt;p&gt;AWCC is an unofficial alternative to Alienware Command Centre of Windows for the Dell G series on Linux, supporting almost all features that the Windows version supports, including custom fan controls, light effects, g-mode, and autoboost&lt;/p&gt;
+&lt;h2 id=&#34;-features&#34;&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🖥️ &lt;strong&gt;GUI and CLI support&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;⚡ &lt;strong&gt;Lightweight&lt;/strong&gt; (uses around ~100mb of RAM with GUI, else 6mb RAM)&lt;/li&gt;
+&lt;li&gt;🌈 &lt;strong&gt;All Light Effects&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🧑‍💻 &lt;strong&gt;Daemon Support&lt;/strong&gt; (no sudo needed if daemon is running)&lt;/li&gt;
+&lt;li&gt;🎮 &lt;strong&gt;GMode and Light Key autobinding&lt;/strong&gt; just like Windows&lt;/li&gt;
+&lt;li&gt;🔥 &lt;strong&gt;Supports All modes&lt;/strong&gt; that your device has&lt;/li&gt;
+&lt;li&gt;💻 &lt;strong&gt;Supports all of G15 and G16&lt;/strong&gt; with some Alienware&lt;/li&gt;
+&lt;li&gt;🕵️ &lt;strong&gt;No Telemetry and Open Source&lt;/strong&gt; :3&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Custom Fan Curve&lt;/strong&gt; (Soon)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;device-tested&#34;&gt;Device Tested&lt;/h2&gt;
 &lt;p&gt;Tested on:&lt;/p&gt;
 &lt;ul&gt;
@@ -31,7 +48,7 @@
 &lt;li&gt;Dell G16 7630&lt;/li&gt;
 &lt;li&gt;Dell G15 5511&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Should work in all Dell G15 models and some G16 models too&lt;/p&gt;
+&lt;p&gt;Should work in all Dell G15 models and some G16 models&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;: &lt;a href=&#34;https://github.com/tr1xem/AWCC&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
