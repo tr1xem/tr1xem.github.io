@@ -96,8 +96,8 @@ async function upload() {
         return;
     }
 
-    const owner = "daudix";
-    const repo = "daudix.one";
+    const owner = "tr1xem";
+    const repo = "website";
 
     const now = new Date();
     const dateForFilename = now.toISOString().slice(0, 10);
