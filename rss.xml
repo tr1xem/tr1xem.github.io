@@ -7,10 +7,10 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 12 Dec 2025 20:23:00 +0530</lastBuildDate>
+      <lastBuildDate>Fri, 12 Dec 2025 20:20:00 +0530</lastBuildDate>
       <item>
           <title>Finally Setup CI</title>
-          <pubDate>Fri, 12 Dec 2025 20:23:00 +0530</pubDate>
+          <pubDate>Fri, 12 Dec 2025 20:20:00 +0530</pubDate>
           <author>tr1x_em</author>
           <link>https://trix.is-a.dev/nanolog/finally-setup-ci/</link>
           <guid>https://trix.is-a.dev/nanolog/finally-setup-ci/</guid>
@@ -27,17 +27,8 @@
 </description>
       </item>
       <item>
-          <title>Website Creation</title>
-          <pubDate>Fri, 12 Dec 2025 07:43:00 +0000</pubDate>
-          <author>tr1x_em</author>
-          <link>https://trix.is-a.dev/nanolog/did-more-than-expected/</link>
-          <guid>https://trix.is-a.dev/nanolog/did-more-than-expected/</guid>
-          <description xml:base="https://trix.is-a.dev/nanolog/did-more-than-expected/">&lt;p&gt;Did more than expected, and it’s looking good so far.&lt;&#x2F;p&gt;
-</description>
-      </item>
-      <item>
           <title>Adding Anime Section</title>
-          <pubDate>Fri, 12 Dec 2025 11:43:00 +0530</pubDate>
+          <pubDate>Fri, 12 Dec 2025 11:40:00 +0530</pubDate>
           <author>tr1x_em</author>
           <link>https://trix.is-a.dev/nanolog/anime-section/</link>
           <guid>https://trix.is-a.dev/nanolog/anime-section/</guid>
@@ -46,8 +37,17 @@ Pretty happy with it :)&lt;&#x2F;p&gt;
 </description>
       </item>
       <item>
+          <title>Website Creation</title>
+          <pubDate>Fri, 12 Dec 2025 07:40:00 +0530</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/did-more-than-expected/</link>
+          <guid>https://trix.is-a.dev/nanolog/did-more-than-expected/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/did-more-than-expected/">&lt;p&gt;Did more than expected, and it’s looking good so far.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
           <title>First Post</title>
-          <pubDate>Thu, 11 Dec 2025 15:43:00 +0530</pubDate>
+          <pubDate>Thu, 11 Dec 2025 15:40:00 +0530</pubDate>
           <author>tr1x_em</author>
           <link>https://trix.is-a.dev/nanolog/first-post/</link>
           <guid>https://trix.is-a.dev/nanolog/first-post/</guid>
