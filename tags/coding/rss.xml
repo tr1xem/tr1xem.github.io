@@ -42,6 +42,8 @@
 The Unix philosophy emphasizes building &lt;strong&gt;simple&lt;&#x2F;strong&gt;, &lt;strong&gt;short&lt;&#x2F;strong&gt;, &lt;strong&gt;clear&lt;&#x2F;strong&gt;, &lt;strong&gt;modular&lt;&#x2F;strong&gt;, and &lt;strong&gt;extensible&lt;&#x2F;strong&gt; code that can be &lt;strong&gt;easily&lt;&#x2F;strong&gt; maintained and repurposed by developers other than its creators. The Unix philosophy favors composability as opposed to monolithic design.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;p&gt;– &lt;a class=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;genius.cat-v.org&#x2F;dennis-ritchie&#x2F;&quot;&gt;Dennis Ritchie&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Unix_philosophy&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
