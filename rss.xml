@@ -7,15 +7,14 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 12 Dec 2025 07:43:35 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 12 Dec 2025 17:43:35 +0000</lastBuildDate>
       <item>
-          <title>Hello World</title>
-          <pubDate>Fri, 12 Dec 2025 07:43:35 +0000</pubDate>
-          <author>tr1xem</author>
-          <link>https://trix.is-a.dev/messageboard/first/</link>
-          <guid>https://trix.is-a.dev/messageboard/first/</guid>
-          <description xml:base="https://trix.is-a.dev/messageboard/first/">&lt;p&gt;Hello World
-The first is always mine&lt;&#x2F;p&gt;
+          <title>Message Board is now live</title>
+          <pubDate>Fri, 12 Dec 2025 17:43:35 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/message-board-is-now-live/</link>
+          <guid>https://trix.is-a.dev/nanolog/message-board-is-now-live/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/message-board-is-now-live/">&lt;p&gt;Finally, the message board is now live. Now everyone can share their messages at &lt;a href=&quot;&#x2F;messageboard&quot;&gt;Message Board&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </description>
       </item>
       <item>
