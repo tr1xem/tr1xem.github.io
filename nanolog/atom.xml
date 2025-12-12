@@ -5,8 +5,49 @@
     <link rel="self" type="application/atom+xml" href="https://trix.is-a.dev/nanolog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://trix.is-a.dev/nanolog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-12-11T22:43:35+00:00</updated>
+    <updated>2025-12-12T07:43:35+00:00</updated>
     <id>https://trix.is-a.dev/nanolog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Website Creation</title>
+        <published>2025-12-12T07:43:35+00:00</published>
+        <updated>2025-12-12T07:43:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              tr1x_em
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://trix.is-a.dev/nanolog/did-more-than-expected/"/>
+        <id>https://trix.is-a.dev/nanolog/did-more-than-expected/</id>
+        
+        <content type="html" xml:base="https://trix.is-a.dev/nanolog/did-more-than-expected/">&lt;p&gt;Did more than expected, and it’s looking good so far.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adding Anime Section</title>
+        <published>2025-12-12T06:43:35+00:00</published>
+        <updated>2025-12-12T06:43:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              tr1x_em
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://trix.is-a.dev/nanolog/anime-section/"/>
+        <id>https://trix.is-a.dev/nanolog/anime-section/</id>
+        
+        <content type="html" xml:base="https://trix.is-a.dev/nanolog/anime-section/">&lt;p&gt;Added a anime section to the home page, its fetching anime data from anilist.co and filtering out the top anime of the user.
+Pretty happy with it :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>First Post</title>
         <published>2025-12-11T22:43:35+00:00</published>

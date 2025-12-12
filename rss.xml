@@ -7,7 +7,26 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Thu, 11 Dec 2025 22:43:35 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 12 Dec 2025 07:43:35 +0000</lastBuildDate>
+      <item>
+          <title>Website Creation</title>
+          <pubDate>Fri, 12 Dec 2025 07:43:35 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/did-more-than-expected/</link>
+          <guid>https://trix.is-a.dev/nanolog/did-more-than-expected/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/did-more-than-expected/">&lt;p&gt;Did more than expected, and it’s looking good so far.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Adding Anime Section</title>
+          <pubDate>Fri, 12 Dec 2025 06:43:35 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/anime-section/</link>
+          <guid>https://trix.is-a.dev/nanolog/anime-section/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/anime-section/">&lt;p&gt;Added a anime section to the home page, its fetching anime data from anilist.co and filtering out the top anime of the user.
+Pretty happy with it :)&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>First Post</title>
           <pubDate>Thu, 11 Dec 2025 22:43:35 +0000</pubDate>
@@ -37,7 +56,10 @@ I did watched a pretty good,crisp and short video on how to use it and i was lik
 &lt;&#x2F;iframe&gt;
 &lt;p&gt;^ the goat video for hugo in my opinion.&lt;&#x2F;p&gt;
 &lt;p&gt;and it turned out like this&lt;&#x2F;p&gt;
+&lt;figure&gt;
 &lt;img class=&quot;spoiler&quot;alt=&quot;Old Website&quot;src=&quot;oldweb.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Old Website&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
 &lt;p&gt;I know its shit (sometime i even surprise myself with the results 🤡), but i was like “its the most my superior brain could do”. also im not at all motivated to do frontend and styling.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;entry-of-zola&quot;&gt;Entry of Zola&lt;&#x2F;h1&gt;
 &lt;p&gt;I was reading &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;daudix.one&#x2F;blog&#x2F;archiving-gradience&#x2F;#top&quot;&gt;Gradience Autopsy: Rise and Set - Daudix&lt;&#x2F;a&gt;&lt;small&gt; (all love to gradience forever) &lt;&#x2F;small&gt; and the looks caught my eye. and then i got to know about &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;. Zola to me is like hugo(XD idk how correct im)
@@ -155,7 +177,13 @@ The Device got amazing cooling system it never gets hots unlike other laptops bu
 &lt;p&gt;CPU is power hungry so it is recommended to use it with turbo boost off (in most of the game the fps drop is not that big) but it gets significantly cooler.&lt;&#x2F;p&gt;
 &lt;p&gt;Looks are great its like a tank, Build is solid and screen is great.&lt;&#x2F;p&gt;
 &lt;p&gt;Overall the laptop is solid and great.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;remind-me-i-have-to-finish-it&quot;&gt;Remind me i have to finish it&lt;&#x2F;h3&gt;
+&lt;img
+		class=&quot;emoji big&quot;
+		src=&quot;https:&#x2F;&#x2F;files.mastodon.social&#x2F;custom_emojis&#x2F;images&#x2F;000&#x2F;158&#x2F;746&#x2F;original&#x2F;8aec95cc046b5772.png&quot;
+		title=&quot;AngeryCat&quot;
+		width=&quot;24&quot;
+		height=&quot;24&quot;
+	&#x2F;&gt;&lt;h3 id=&quot;remind-me-i-have-to-finish-it&quot;&gt;Remind me i have to finish it&lt;&#x2F;h3&gt;
 &lt;p&gt;Resources: &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;aur.archlinux.org&#x2F;packages&#x2F;awcc-git&quot;&gt;AWCC&lt;&#x2F;a&gt; and &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.archlinux.org&#x2F;title&#x2F;Dell_G15_5530&quot;&gt;Arch Wiki&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </description>
       </item>
