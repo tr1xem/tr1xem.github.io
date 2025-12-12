@@ -7,7 +7,16 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 12 Dec 2025 20:20:00 +0530</lastBuildDate>
+      <lastBuildDate>Fri, 12 Dec 2025 18:46:16 +0000</lastBuildDate>
+      <item>
+          <title>Hiatus</title>
+          <pubDate>Fri, 12 Dec 2025 18:46:16 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/hiatus/</link>
+          <guid>https://trix.is-a.dev/nanolog/hiatus/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/hiatus/">&lt;p&gt;Enough of this thing now, I should focus on other things too would develop rest of the site ofcccccc but with some much needed breaks 😁&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Finally Setup CI</title>
           <pubDate>Fri, 12 Dec 2025 20:20:00 +0530</pubDate>
