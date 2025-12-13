@@ -7,7 +7,16 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/nanolog/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 12 Dec 2025 18:46:16 +0000</lastBuildDate>
+      <lastBuildDate>Sat, 13 Dec 2025 06:39:12 +0000</lastBuildDate>
+      <item>
+          <title>adding new stuff</title>
+          <pubDate>Sat, 13 Dec 2025 06:39:12 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/adding-new-stuff/</link>
+          <guid>https://trix.is-a.dev/nanolog/adding-new-stuff/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/adding-new-stuff/">&lt;p&gt;Just added ntfy (made a client in go for desktop so i get notification) and the animated title daudix helped me :&amp;gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Hiatus</title>
           <pubDate>Fri, 12 Dec 2025 18:46:16 +0000</pubDate>
