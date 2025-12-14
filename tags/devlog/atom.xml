@@ -5,12 +5,12 @@
     <link rel="self" type="application/atom+xml" href="https://trix.is-a.dev/tags/devlog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://trix.is-a.dev"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-12-13T00:00:00+00:00</updated>
+    <updated>2025-12-14T10:15:00+00:00</updated>
     <id>https://trix.is-a.dev/tags/devlog/atom.xml</id>
     <entry xml:lang="en">
         <title>My dev setup is better than yours</title>
         <published>2025-12-13T00:00:00+00:00</published>
-        <updated>2025-12-13T00:00:00+00:00</updated>
+        <updated>2025-12-14T10:15:00+00:00</updated>
         
         <author>
           <name>
@@ -42,6 +42,8 @@
 &lt;p&gt;&lt;em&gt;A desktop environment is a graphical user interface (GUI) that runs on top of an operating system, providing users with a visually intuitive way to interact with the system.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I prefer tilling window manager, Why? Because they remove the overhead of managing windows from me, and generally it’s keyboard driven and as you know the more you can remove the need for a mouse the more productive and smooth your workflow gets.&lt;&#x2F;p&gt;
 &lt;p&gt;I use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypr.land&#x2F;&quot;&gt;Hyprland&lt;&#x2F;a&gt;, why? Because firstly it’s a tilling WM, and secondly it has awesome customization and looks &lt;small&gt;(I love blur btw)&lt;&#x2F;small&gt; but any tilling wm of your choice would suffice. And no I don’t care about Wayland vs Xorg, I have used sway,i3,DWM in the past, and it’s just I want a good-looking desktop &lt;small&gt;(as you can see in banner)&lt;&#x2F;small&gt;. Talking about the photo, it’s my own shell that’s called &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tr1xem&#x2F;flux&quot;&gt;Flux&lt;&#x2F;a&gt;, which is made in &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ignis-sh&#x2F;ignis&quot;&gt;Ignis&lt;&#x2F;a&gt;. It’s just suited according to my preference, but yeah it looks good (specially the depth effect). If you are a new user, I would recommend you reading the &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.hypr.land&#x2F;&quot;&gt;Hyprland’s Wiki&lt;&#x2F;a&gt; as it’s simple and straight forward &lt;small&gt;(and looks good)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;what-do-i-look-in-a-shell&quot;&gt;What do I look in a shell?&lt;&#x2F;h4&gt;
+&lt;p&gt;It could be also said as why I made flux, I have a 15.6 inch display&lt;small&gt;(which is quite average)&lt;&#x2F;small&gt; and to maximise the use of all space available on my screen I need a bar which is small but still shows important things. Also, I don’t like the idea of having a bottom bar imagine the closest thing to you is a bar staring at you also it gives windows like feel to me. Besides, It has all network and miscellaneous controls built in, so I don’t need any external app to manage all of this.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;tools&quot;&gt;Tools&lt;&#x2F;h2&gt;
 &lt;p&gt;Now I will list down the tools I use on a daily basis.&lt;small&gt;(all the configs related to them are in my dotfiles repo)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;editor-why-neovim&quot;&gt;Editor: Why Neovim?&lt;&#x2F;h3&gt;
@@ -63,13 +65,18 @@ If you ask me, what’s one thing that made my dev experience 100x better? It’
 &lt;img class=&quot;&quot;alt=&quot;Opencode&quot;src=&quot;opencode.png&quot;&#x2F;&gt;
 &lt;figcaption&gt;Opencode&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;fig&gt;
-&lt;p&gt;Personally, I don’t like using AI in development side, as I don’t think we are at that stage where AI could right a dependable piece of code. Neither do I like nor support the idea of &lt;mark&gt;Vibe Coding&lt;&#x2F;mark&gt;. But on other time like for creating a generic bash script or finding out grammatical mistakes I think &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;opencode.ai&#x2F;&quot;&gt;Opencode&lt;&#x2F;a&gt; is best, It’s open source, the developer is super friendly, and it’s not model bound that means you can use any model even bring your own local LLM.&lt;&#x2F;p&gt;
+&lt;p&gt;Personally, I don’t like using AI in development side, as I don’t think we are at that stage where AI could write a dependable piece of code. Neither do I like nor support the idea of &lt;mark&gt;Vibe Coding&lt;&#x2F;mark&gt;. But on other time like for creating a generic bash script or finding out grammatical mistakes I think &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;opencode.ai&#x2F;&quot;&gt;Opencode&lt;&#x2F;a&gt; is best, It’s open source, the developer is super friendly, and it’s not model bound that means you can use any model even bring your own local LLM.&lt;&#x2F;p&gt;
 &lt;p&gt;I personally don’t like the idea of AI inside your editor like one half of your editor is full of prompts and things like this, I prefer an outside of editor and terminal based agent so I could just use tmux to create a window for it. It’s just my preference of keeping editor and agents different, and I guess most of the people have the same?&lt;small&gt;(unless they are vibe coding?)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The thing I like inside my editor is AI based autocomplete, it comes in handy in most of the place. I personally use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;supermaven.com&#x2F;&quot;&gt;Supermaven&lt;&#x2F;a&gt; because it’s fast, free and correct&lt;small&gt;(most of the time)&lt;&#x2F;small&gt; and also they got a Neovim plugin that’s why too.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;terminal-ghostty&quot;&gt;Terminal: Ghostty&lt;&#x2F;h3&gt;
 &lt;p&gt;I don’t really care about it, I just use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ghostty.org&#x2F;&quot;&gt;Ghostty&lt;&#x2F;a&gt;. I don’t think it creates any difference, they are all the same.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;hyprscrolling&quot;&gt;Hyprscrolling&lt;&#x2F;h3&gt;
-&lt;p&gt;I use Hyprscrolling to add features of a scrolling window manager to Hyprland. It’s been a month since I started using it and it is great. But it totally depends on preferences, I just happen to like it.&lt;&#x2F;p&gt;
+&lt;fig&gt;
+&lt;video class=&quot;&quot; src=&quot;scrolling.webm&quot;aria-title=&quot;Scrolling Layout&quot;autoplay loop muted&gt;&lt;&#x2F;video&gt;
+
+&lt;figcaption&gt;Scrolling Layout&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;I use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyprwm&#x2F;hyprland-plugins&#x2F;tree&#x2F;main&#x2F;hyprscrolling&quot;&gt;Hyprscrolling&lt;&#x2F;a&gt; plugin to add features of a scrolling window manager to Hyprland. It’s been a month since I started using it and it’s great. But it totally depends on preferences, I just happen to like it.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;container-based-development&quot;&gt;Container based development&lt;&#x2F;h2&gt;
 &lt;p&gt;Now this I learnt recently, and it’s already a core part of my workflow&lt;&#x2F;p&gt;
 &lt;p&gt;If you use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Systemd&quot;&gt;Systemd&lt;&#x2F;a&gt; it comes with &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.archlinux.org&#x2F;title&#x2F;Systemd-nspawn&quot;&gt;Systemd-nspawn&lt;&#x2F;a&gt; which technically creates a minimal Linux distribution (headless) which I would say is like an isolated part of your distro. It’s like the chroot command, but it is a chroot on steroids. By using containers, I can keep the host system minimal while maintaining separate, well-organized environments for different tasks. If you want to know more about this, you can refer to &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;gasparvardanyan.github.io&#x2F;blog&#x2F;arch-workstation-3&#x2F;&quot;&gt;Gaspar’s&lt;&#x2F;a&gt; blog on how he manages his devlopment containers.&lt;small&gt;(shout out to him as he taught me this too)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
@@ -79,6 +86,7 @@ If you ask me, what’s one thing that made my dev experience 100x better? It’
 &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tealdeer-rs&#x2F;tealdeer&quot;&gt;Tealdeer&lt;&#x2F;a&gt; - Man pages are too long&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aitjcize&#x2F;cppman&quot;&gt;Cppman&lt;&#x2F;a&gt; - All CPP man pages offline&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Wraient&#x2F;curd&quot;&gt;Curd&lt;&#x2F;a&gt; - I use it every time I want to watch anime, truly the best.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;vicinaehq&#x2F;vicinae&quot;&gt;Vicinae&lt;&#x2F;a&gt; - Raycast for linux just try it&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
 &lt;p&gt;If you asked me what are the top two things you should adopt from this, I would say learning vim movements &lt;small&gt;(just movements, not Neovim)&lt;&#x2F;small&gt; and tmux, they alone would make a massive addition in your workflow.&lt;&#x2F;p&gt;
