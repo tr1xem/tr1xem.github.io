@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>tr1x_em - devlog</title>
+    <subtitle>just my corner of internet</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://trix.is-a.dev/tags/devlog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://trix.is-a.dev"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-14T10:15:00+00:00</updated>
+    <id>https://trix.is-a.dev/tags/devlog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>My dev setup is better than yours</title>
+        <published>2025-12-13T00:00:00+00:00</published>
+        <updated>2025-12-14T10:15:00+00:00</updated>
+        
+        <author>
+          <name>
+            tr1x_em
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://trix.is-a.dev/blog/my-dev-setup-is-better-than-yours/"/>
+        <id>https://trix.is-a.dev/blog/my-dev-setup-is-better-than-yours/</id>
+        
+        <content type="html" xml:base="https://trix.is-a.dev/blog/my-dev-setup-is-better-than-yours/">&lt;p&gt;In this blog, I would be talking about my dev setup and workflow. This is &lt;small&gt;(little bit) &lt;&#x2F;small&gt; inspired by &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;frontendmasters.com&#x2F;courses&#x2F;developer-productivity-v2&#x2F;&quot;&gt;Primagen’s Course&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;TL;DR: Here is my dotfiles repo: &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tr1xem&#x2F;dotfiles&quot;&gt;Link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dotfiles-management&quot;&gt;Dotfiles management&lt;&#x2F;h2&gt;
+&lt;p&gt;What are dotfiles? Well &lt;em&gt;dotfiles are hidden configuration files on Unix-based systems, such as Linux and macOS, that store settings, preferences, and configurations for various applications, tools, and the system environment.&lt;&#x2F;em&gt; So that means if you can transfer your dotfiles from one device to another device, your whole configuration (including themes) should stay the same.&lt;&#x2F;p&gt;
+&lt;p&gt;For dotfiles management, I use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;software&#x2F;stow&quot;&gt;GNU Stow&lt;&#x2F;a&gt; it just does a simple thing, it would create symlink of files to their actual directories. For example, I have stored my &lt;mark&gt;.config&lt;&#x2F;mark&gt; inside &lt;mark&gt;~&#x2F;dotfiles&#x2F;config&#x2F;.config&lt;&#x2F;mark&gt; &lt;small&gt;(dotfiles is a git repo btw)&lt;&#x2F;small&gt; what stow does is that it takes files &lt;mark&gt;~&#x2F;dotfiles&#x2F;config&#x2F;.config&lt;&#x2F;mark&gt; from there and symlinks it to their actually location i.e. &lt;mark&gt;~&#x2F;.config&#x2F;&lt;&#x2F;mark&gt; so when ever I update a config it is always stored in &lt;mark&gt;~&#x2F;dotfiles&lt;&#x2F;mark&gt; which being a git repo gives me ability to back up my whole folder on GitHub.&lt;&#x2F;p&gt;
+&lt;p&gt;I recommend you watching the following video if you want to learn more about stow&lt;&#x2F;p&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;NoFiYOqnC4o&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;p&gt;Here is my dotfiles repo: &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tr1xem&#x2F;dotfiles&quot;&gt;Link&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-use-a-tilling-window-manager&quot;&gt;Why use a Tilling Window Manager?&lt;&#x2F;h2&gt;
+&lt;fig&gt;
+&lt;img class=&quot;&quot;alt=&quot;Flux&quot;src=&quot;ss3.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Flux&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;&lt;em&gt;A desktop environment is a graphical user interface (GUI) that runs on top of an operating system, providing users with a visually intuitive way to interact with the system.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I prefer tilling window manager, Why? Because they remove the overhead of managing windows from me, and generally it’s keyboard driven and as you know the more you can remove the need for a mouse the more productive and smooth your workflow gets.&lt;&#x2F;p&gt;
+&lt;p&gt;I use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypr.land&#x2F;&quot;&gt;Hyprland&lt;&#x2F;a&gt;, why? Because firstly it’s a tilling WM, and secondly it has awesome customization and looks &lt;small&gt;(I love blur btw)&lt;&#x2F;small&gt; but any tilling wm of your choice would suffice. And no I don’t care about Wayland vs Xorg, I have used sway,i3,DWM in the past, and it’s just I want a good-looking desktop &lt;small&gt;(as you can see in banner)&lt;&#x2F;small&gt;. Talking about the photo, it’s my own shell that’s called &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tr1xem&#x2F;flux&quot;&gt;Flux&lt;&#x2F;a&gt;, which is made in &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ignis-sh&#x2F;ignis&quot;&gt;Ignis&lt;&#x2F;a&gt;. It’s just suited according to my preference, but yeah it looks good (specially the depth effect). If you are a new user, I would recommend you reading the &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.hypr.land&#x2F;&quot;&gt;Hyprland’s Wiki&lt;&#x2F;a&gt; as it’s simple and straight forward &lt;small&gt;(and looks good)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;what-do-i-look-in-a-shell&quot;&gt;What do I look in a shell?&lt;&#x2F;h4&gt;
+&lt;p&gt;It could be also said as why I made flux, I have a 15.6 inch display&lt;small&gt;(which is quite average)&lt;&#x2F;small&gt; and to maximise the use of all space available on my screen I need a bar which is small but still shows important things. Also, I don’t like the idea of having a bottom bar imagine the closest thing to you is a bar staring at you also it gives windows like feel to me. Besides, It has all network and miscellaneous controls built in, so I don’t need any external app to manage all of this.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;&#x2F;h2&gt;
+&lt;p&gt;Now I will list down the tools I use on a daily basis.&lt;small&gt;(all the configs related to them are in my dotfiles repo)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;editor-why-neovim&quot;&gt;Editor: Why Neovim?&lt;&#x2F;h3&gt;
+&lt;fig&gt;
+&lt;img class=&quot;&quot;alt=&quot;Neovim&quot;src=&quot;neovim.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Neovim&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;I personally use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt; because it’s vim&lt;small&gt; (and vim movements)&lt;&#x2F;small&gt; and on top of it, it’s highly customizable with a lot of plugins.
+If you ask me, what’s one thing that made my dev experience 100x better? It’s learning Vim movements, and aside from the productivity parts, it actually makes the code writing an enjoyable experience. It might be a bit overwhelming to learn vim movements at first but trust me on this one it’s 100% worth it. To learn, I would suggest watching this playlist &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=X6AR2RMB5tE&amp;amp;list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R&quot;&gt;Vim as your editor&lt;&#x2F;a&gt; by theprimagen.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terminal-multiplexer-why-tmux&quot;&gt;Terminal Multiplexer: Why Tmux?&lt;&#x2F;h3&gt;
+&lt;fig&gt;
+&lt;img class=&quot;&quot;alt=&quot;Tmux&quot;src=&quot;tmux.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Tmux&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;&lt;em&gt;A terminal multiplexer is a software application that allows multiple pseudoterminal-based login sessions to be multiplexed within a single terminal display, terminal emulator window, or remote login session.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Basically, it lets you create more than one non-volatile &lt;small&gt;(sessions would not stop if terminal is killed)&lt;&#x2F;small&gt;. You would be thinking, why not just use diff window? Well, yeah you can, but what if u need nine windows simultaneously? That’s where tmux comes in, you can have as many shell (or windows) as you like while still being in one terminal. Another use case it like if you are ssh’d into a VPS what if u need more than one shell you have to ssh from a diff terminal window but if u use tmux only one ssh login can do it, and also it could run in background so u won’t need something like screen. Also, you can split panes and do things like re-ordering and making more sessions, which made it a core part of my workflow. If you want to learn more about tmux Dreams of Code have a great &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=DzNmUNvnB04&quot;&gt;video&lt;&#x2F;a&gt; on it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ai-assistance-opencode-and-supermaven&quot;&gt;AI Assistance: Opencode and Supermaven&lt;&#x2F;h3&gt;
+&lt;fig&gt;
+&lt;img class=&quot;&quot;alt=&quot;Opencode&quot;src=&quot;opencode.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Opencode&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;Personally, I don’t like using AI in development side, as I don’t think we are at that stage where AI could write a dependable piece of code. Neither do I like nor support the idea of &lt;mark&gt;Vibe Coding&lt;&#x2F;mark&gt;. But on other time like for creating a generic bash script or finding out grammatical mistakes I think &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;opencode.ai&#x2F;&quot;&gt;Opencode&lt;&#x2F;a&gt; is best, It’s open source, the developer is super friendly, and it’s not model bound that means you can use any model even bring your own local LLM.&lt;&#x2F;p&gt;
+&lt;p&gt;I personally don’t like the idea of AI inside your editor like one half of your editor is full of prompts and things like this, I prefer an outside of editor and terminal based agent so I could just use tmux to create a window for it. It’s just my preference of keeping editor and agents different, and I guess most of the people have the same?&lt;small&gt;(unless they are vibe coding?)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The thing I like inside my editor is AI based autocomplete, it comes in handy in most of the place. I personally use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;supermaven.com&#x2F;&quot;&gt;Supermaven&lt;&#x2F;a&gt; because it’s fast, free and correct&lt;small&gt;(most of the time)&lt;&#x2F;small&gt; and also they got a Neovim plugin that’s why too.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terminal-ghostty&quot;&gt;Terminal: Ghostty&lt;&#x2F;h3&gt;
+&lt;p&gt;I don’t really care about it, I just use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ghostty.org&#x2F;&quot;&gt;Ghostty&lt;&#x2F;a&gt;. I don’t think it creates any difference, they are all the same.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hyprscrolling&quot;&gt;Hyprscrolling&lt;&#x2F;h3&gt;
+&lt;fig&gt;
+&lt;video class=&quot;&quot; src=&quot;scrolling.mp4&quot;aria-title=&quot;Scrolling Layout&quot;autoplay loop muted&gt;&lt;&#x2F;video&gt;
+
+&lt;figcaption&gt;Scrolling Layout&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;fig&gt;
+&lt;p&gt;I use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyprwm&#x2F;hyprland-plugins&#x2F;tree&#x2F;main&#x2F;hyprscrolling&quot;&gt;Hyprscrolling&lt;&#x2F;a&gt; plugin to add features of a scrolling window manager to Hyprland. It’s been a month since I started using it and it’s great. But it totally depends on preferences, I just happen to like it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;container-based-development&quot;&gt;Container based development&lt;&#x2F;h2&gt;
+&lt;p&gt;Now this I learnt recently, and it’s already a core part of my workflow&lt;&#x2F;p&gt;
+&lt;p&gt;If you use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Systemd&quot;&gt;Systemd&lt;&#x2F;a&gt; it comes with &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.archlinux.org&#x2F;title&#x2F;Systemd-nspawn&quot;&gt;Systemd-nspawn&lt;&#x2F;a&gt; which technically creates a minimal Linux distribution (headless) which I would say is like an isolated part of your distro. It’s like the chroot command, but it is a chroot on steroids. By using containers, I can keep the host system minimal while maintaining separate, well-organized environments for different tasks. If you want to know more about this, you can refer to &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;gasparvardanyan.github.io&#x2F;blog&#x2F;arch-workstation-3&#x2F;&quot;&gt;Gaspar’s&lt;&#x2F;a&gt; blog on how he manages his devlopment containers.&lt;small&gt;(shout out to him as he taught me this too)&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hornable-mentions-non-development-tools&quot;&gt;Hornable mentions: Non Development tools&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ffmpeg.org&quot;&gt;FFmpeg&lt;&#x2F;a&gt; - the greatest tool that have ever lived&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tealdeer-rs&#x2F;tealdeer&quot;&gt;Tealdeer&lt;&#x2F;a&gt; - Man pages are too long&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aitjcize&#x2F;cppman&quot;&gt;Cppman&lt;&#x2F;a&gt; - All CPP man pages offline&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Wraient&#x2F;curd&quot;&gt;Curd&lt;&#x2F;a&gt; - I use it every time I want to watch anime, truly the best.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;vicinaehq&#x2F;vicinae&quot;&gt;Vicinae&lt;&#x2F;a&gt; - Raycast for linux just try it&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;If you asked me what are the top two things you should adopt from this, I would say learning vim movements &lt;small&gt;(just movements, not Neovim)&lt;&#x2F;small&gt; and tmux, they alone would make a massive addition in your workflow.&lt;&#x2F;p&gt;
+&lt;p&gt;If you got any suggestions or tools that you use everyday, let me know, maybe I could use them as well??&lt;&#x2F;p&gt;
+&lt;p&gt;And my setup could be not better than yours &lt;small&gt;(or it could be)&lt;&#x2F;small&gt; but it surely is perfect for me 😉&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Website Rewrite in Zola</title>
+        <published>2025-12-11T00:00:00+00:00</published>
+        <updated>2025-12-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            tr1x_em
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://trix.is-a.dev/blog/website-rewrite-in-zola/"/>
+        <id>https://trix.is-a.dev/blog/website-rewrite-in-zola/</id>
+        
+        <content type="html" xml:base="https://trix.is-a.dev/blog/website-rewrite-in-zola/">&lt;h1 id=&quot;backstory&quot;&gt;Backstory&lt;&#x2F;h1&gt;
+&lt;p&gt;Who dosent need a website? so a year ago I thought I’d create a website for myself, and I did. But guess what? it was in pure HTML and CSS (prolly from some github) repo.
+But i really felt a need to have a better looking website, in which i could showcase my projects, and maybe even write a blog.&lt;&#x2F;p&gt;
+&lt;p&gt;So a frnd of mine &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;gasparvardanyan.github.io&#x2F;&quot;&gt;Gasper&lt;&#x2F;a&gt;&lt;small&gt;(a very cool guy)&lt;&#x2F;small&gt; suggested me to use &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt; and i was like “wts hugo?”.
+I did watched a pretty good,crisp and short video on how to use it and i was like “okay, i’ll give it a try”.&lt;&#x2F;p&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;ZFL09qhKi5I&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;p&gt;^ the goat video for hugo in my opinion.&lt;&#x2F;p&gt;
+&lt;p&gt;and it turned out like this&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img class=&quot;spoiler&quot;alt=&quot;Old Website&quot;src=&quot;oldweb.png&quot;&#x2F;&gt;
+&lt;figcaption&gt;Old Website&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I know its shit (sometime i even surprise myself with the results 🤡), but i was like “its the most my superior brain could do”. also im not at all motivated to do frontend and styling.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;entry-of-zola&quot;&gt;Entry of Zola&lt;&#x2F;h1&gt;
+&lt;p&gt;I was reading &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;daudix.one&#x2F;blog&#x2F;archiving-gradience&#x2F;&quot;&gt;Gradience Autopsy: Rise and Set - Daudix&lt;&#x2F;a&gt;&lt;small&gt; (all love to gradience forever) &lt;&#x2F;small&gt; and the looks caught my eye. and then i got to know about &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;. Zola to me is like hugo(XD idk how correct im)
+and with it i came to know about a guy named &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;daudix.one&#x2F;&quot;&gt;Daudix&lt;&#x2F;a&gt; and his theme for zola named &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;&quot;&gt;Ametrine&lt;&#x2F;a&gt; tho acc to him its not stable but as I being a arch user do not care about
+stable things at all.&lt;&#x2F;p&gt;
+&lt;p&gt;Ametrine is the greatest theme i have ever seen, its so simple to use and the result you are seeing it here, ofc i did copypasta from Daudix’s website too but yeah thats what open source is and as someone said already&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Original content is original only for a few seconds before getting old”&lt;br&gt;
+~Rule 69 of internet&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;So if u you want to make a website and ur not some geeky frontend wizard, i suggest u to use zola and ametrine.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;some-crazy-featuers-and-styling&quot;&gt;Some Crazy Featuers and Styling&lt;&#x2F;h1&gt;
+&lt;p&gt;I love how it renders tables&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Page&lt;&#x2F;th&gt;&lt;th&gt;Repo&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Home&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;pages&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Info&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;pages&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Works&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;pages&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Blog&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;blog-source&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;and code blocks&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;cpp&quot; class=&quot;language-cpp z-code&quot;&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-meta z-preprocessor z-include z-c++&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-include z-c++&quot;&gt;#include&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-other z-lt-gt z-include z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c++&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;iostream&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c++&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-storage z-type z-c&quot;&gt;int&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-toc-list z-full-identifier z-c++&quot;&gt;&lt;span class=&quot;z-entity z-name z-function z-c++&quot;&gt;main&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-parameters z-c++&quot;&gt;&lt;span class=&quot;z-meta z-group z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-c++&quot;&gt;(&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-parameters z-c++&quot;&gt;&lt;span class=&quot;z-meta z-group z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-c++&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-c++&quot;&gt;{&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;    std&lt;span class=&quot;z-punctuation z-accessor z-double-colon z-c++&quot;&gt;::&lt;&#x2F;span&gt;cout &lt;span class=&quot;z-keyword z-operator z-arithmetic z-c&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;Hello, World!&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-arithmetic z-c&quot;&gt;&amp;lt;&amp;lt;&lt;&#x2F;span&gt; std&lt;span class=&quot;z-punctuation z-accessor z-double-colon z-c++&quot;&gt;::&lt;&#x2F;span&gt;endl&lt;span class=&quot;z-punctuation z-terminator z-c++&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;    &lt;span class=&quot;z-keyword z-control z-flow z-return z-c++&quot;&gt;return&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-c++&quot;&gt;0&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-c++&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-end z-c++&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;and these github like alerts&lt;&#x2F;p&gt;
+&lt;blockquote class=&quot;markdown-alert-note&quot;&gt;
+&lt;p&gt;Useful information that users should know, even when skimming content.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-tip&quot;&gt;
+&lt;p&gt;Helpful advice for doing things better or more easily.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-important&quot;&gt;
+&lt;p&gt;Key information users need to know to achieve their goal.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-warning&quot;&gt;
+&lt;p&gt;Urgent info that needs immediate user attention to avoid problems.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;markdown-alert-caution&quot;&gt;
+&lt;p&gt;Advises about risks or negative outcomes of certain actions.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Buttons are good too&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;button class=&quot;suggested&quot;&gt;Do Something…&lt;&#x2F;button&gt;
+&lt;a class=&quot;button external&quot; href=&quot;https:&#x2F;&#x2F;example.org&quot;&gt;Example&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;and many more check it out yourself at &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;&quot;&gt;Ametrine’s&lt;&#x2F;a&gt; website&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h1&gt;
+&lt;p&gt;It’s been an interesting journey for sure; trying to use Hugo, losing my mind, regretting life choices,
+learning wierd stuff and using my 1 brain cell to think about how tf do i make it look good, burning out, coming back, learning more weird thing, procrastinating, coming back, rewriting half of the styles, and finally
+finding out i had no need for it (it hurts a bit 😭). But yep i guess now this would be my main website for a long time : )&lt;&#x2F;p&gt;
+&lt;p&gt;Gald i found &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ametrine.daudix.one&#x2F;&quot;&gt;Ametrine&lt;&#x2F;a&gt; and &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;daudix.one&#x2F;&quot;&gt;Daudix&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
