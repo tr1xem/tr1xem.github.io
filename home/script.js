@@ -55,6 +55,10 @@ const ntfyInput = document.getElementById("ntfy-input");
 const ntfySend = document.getElementById("ntfy-send");
 const ntfyid = "tr1x_em-website-baby";
 
+const statusCafeContent = document.getElementById("statuscafe-content");
+const statusCafeFace = document.getElementById("statuscafe-face");
+const statusCafeTimeAgo = document.getElementById("statuscafe-time-ago");
+
 let lastDiscordStatus = "";
 let lastTime = "";
 let lastTrackID = null;
@@ -172,6 +176,8 @@ function updateClock() {
         lastTime = localTime;
     }
 }
+// status
+//
 
 // Main
 document.addEventListener("DOMContentLoaded", function () {
