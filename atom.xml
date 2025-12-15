@@ -5,8 +5,28 @@
     <link rel="self" type="application/atom+xml" href="https://trix.is-a.dev/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://trix.is-a.dev"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-12-14T10:15:00+00:00</updated>
+    <updated>2025-12-15T07:09:46+00:00</updated>
     <id>https://trix.is-a.dev/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Sveltia Cms configured</title>
+        <published>2025-12-15T07:09:46+00:00</published>
+        <updated>2025-12-15T07:09:46+00:00</updated>
+        
+        <author>
+          <name>
+            
+              tr1x_em
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://trix.is-a.dev/nanolog/sveltia-cms-configured/"/>
+        <id>https://trix.is-a.dev/nanolog/sveltia-cms-configured/</id>
+        
+        <content type="html" xml:base="https://trix.is-a.dev/nanolog/sveltia-cms-configured/">&lt;p&gt;Finally it is configured properly you what that means? I can write blogs and stuff without even needing to touch my machineeeee :) I’m so happy dang it!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Segmented Displays</title>
         <published>2025-12-14T05:26:35+00:00</published>
