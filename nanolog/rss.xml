@@ -7,7 +7,16 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://trix.is-a.dev/nanolog/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Mon, 15 Dec 2025 07:09:46 +0000</lastBuildDate>
+      <lastBuildDate>Mon, 15 Dec 2025 18:54:17 +0000</lastBuildDate>
+      <item>
+          <title>Website Completion</title>
+          <pubDate>Mon, 15 Dec 2025 18:54:17 +0000</pubDate>
+          <author>tr1x_em</author>
+          <link>https://trix.is-a.dev/nanolog/website-completion/</link>
+          <guid>https://trix.is-a.dev/nanolog/website-completion/</guid>
+          <description xml:base="https://trix.is-a.dev/nanolog/website-completion/">&lt;p&gt;Finally website is completed . That dosnt mean i would stop writing dont you worry&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Sveltia Cms configured</title>
           <pubDate>Mon, 15 Dec 2025 07:09:46 +0000</pubDate>
