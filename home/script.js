@@ -182,9 +182,6 @@ function updateClock() {
 // Luffy
 //
 function luffyegg() {
-    // luffy.setAttribute("disabled", "true");
-
-    console.log("luffy");
     intro.play();
 }
 
