@@ -59,6 +59,9 @@ const statusCafeContent = document.getElementById("statuscafe-content");
 const statusCafeFace = document.getElementById("statuscafe-face");
 const statusCafeTimeAgo = document.getElementById("statuscafe-time-ago");
 
+const luffy = document.getElementById("luffy");
+const intro = new Audio("/home/luffy.mp3");
+
 let lastDiscordStatus = "";
 let lastTime = "";
 let lastTrackID = null;
@@ -176,8 +179,14 @@ function updateClock() {
         lastTime = localTime;
     }
 }
-// status
+// Luffy
 //
+function luffyegg() {
+    // luffy.setAttribute("disabled", "true");
+
+    console.log("luffy");
+    intro.play();
+}
 
 // Main
 document.addEventListener("DOMContentLoaded", function () {
@@ -190,5 +199,6 @@ document.addEventListener("DOMContentLoaded", function () {
     fetchDiscordStatus();
     setInterval(fetchDiscordStatus, 10000);
 
+    luffy.addEventListener("click", luffyegg);
     ntfySend.addEventListener("click", sendNotification);
 });
